@@ -43,7 +43,6 @@ Due to the high number of players playing the offline version of pokerogue, this
 The AntiVirus might label it as a virus. All the source code is available into the `src/` folder, and you can even decompile the exe files; they've been compiled with pyinstaller.
 
 ## Commands list
-(Refresh your pokerogue.net page after any modifications!)
 
 Hatch all eggs
 - This will make all your eggs hatch after you defeat 1 Pokemon.
