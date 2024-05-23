@@ -78,6 +78,9 @@ Show all biomes IDs
 Show all moves IDs
 - Displays all the moves's IDs
   
+## Other Projects
+
+If you're interested in the online solution for this editor, make sure to checkout [this repo](https://github.com/fire6945/RogueEditor) i'm working on with other people.
 
 <!-- Metadata: keywords -->
 <meta name="description" content="is a solution for editing save files in the offline version for pokerogue written in Python.">
