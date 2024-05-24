@@ -15,6 +15,8 @@ Due to the high number of players playing the offline version of pokerogue, this
 
 ## Using the tool for the Official Pokerogue's version 
 
+**Remember to make backups of your unaltered data before editing it!**
+
 - Go into `compiled/` and copy the `patch/` folder into the root directory of the official pokerogue's build;
 - Enter the patch folder that you just copied in the pokerogue directory and run as administrator `patcher.exe`;
 - Run pokerogue as instructed in their github repo. Press M and press Manage Data, you'll get two export options:
@@ -27,6 +29,9 @@ Due to the high number of players playing the offline version of pokerogue, this
     - For the gamesave slot data choose `Import session`;
 
 ## Using the tool for the Admiral-Billy's version
+
+**Remember to make backups of your unaltered data before editing it!**
+
 - Open the game and press M, and then Manage Data:
     - Export Data will dump you `data_Guest.prsv` which is the equivalent of `trainer.json`, so it has all the informations and properties of your account;
     - Export Session will dump you `dataSession_Guest.prsv` which will contain the data of the gamesave slot you have choosen;
