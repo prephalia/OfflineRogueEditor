@@ -18,6 +18,15 @@ window.onload = function() {
                 
                 const jsonContent = JSON.parse(plaintext);
 
+                const nullCheckbox = document.getElementById("nullCheckbox");
+                if (nullCheckbox.checked) {
+                    for (const key in jsonContent.starterData) {
+                        if (jsonContent.starterData.hasOwnProperty(key)) {
+                            jsonContent.starterData[key]["$m"] = null;
+                        }
+                    }
+                }
+
                 const blob = new Blob([JSON.stringify(jsonContent, null, 2)], { type: "application/json" });
 
                 const filename = file.name.startsWith('data_') ? 'data_Guest.json' : (file.name.startsWith('sessionData_') ? 'sessionData_Guest.json' : 'decrypted_data.json');
