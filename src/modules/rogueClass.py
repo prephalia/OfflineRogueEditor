@@ -165,7 +165,7 @@ class Rogue:
             "$s": seen_count,
             "$c": caught,
             "$hc": hatched,
-            "$iv": ivs
+            "$i": ivs
         }
         data["starterData"][dexId] = {
             "$m": None,
